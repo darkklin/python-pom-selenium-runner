@@ -3,7 +3,7 @@ services:
   test-module:
     image: darkklin/python-pom-selenium
     environment:
-      - BROWSER=firefox 
+      - --browser=firefox 
     volumes:
       - /var/lib/jenkins/jenkin_slave/workspace/python-pom-selenium-runner/my_allure_results:/usr/share/project/my_allure_results
  
