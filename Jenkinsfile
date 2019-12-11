@@ -19,7 +19,7 @@ pipeline{
                     jdk: '11.0.4"',
                     properties: [],
                     reportBuildPolicy: 'ALWAYS',
-                    results: [[path: '/var/lib/jenkins/jenkin_slave/workspace/python-pom-selenium-runner/']]
+                    results: [[path: '/home/qa/jenkins/workspace/python-pom-selenium-runner/']]
             ])
     }
     }

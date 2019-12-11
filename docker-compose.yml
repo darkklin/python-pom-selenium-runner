@@ -5,5 +5,5 @@ services:
     environment:
       - browser=firefox 
     volumes:
-      - /var/lib/jenkins/jenkin_slave/workspace/python-pom-selenium-runner/my_allure_results:/usr/share/project/my_allure_results
+      - /home/qa/jenkins/workspace/python-pom-selenium-runner/my_allure_results:/usr/share/project/my_allure_results
  
